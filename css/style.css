@@ -1,0 +1,503 @@
+/* Rubik */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+/* DM Sans */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.header {
+    width: 100%;
+    padding: 40px 218px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    width: 100%;
+    max-width: 1550px;
+    margin: 0 auto;
+    padding: 48 200px;
+    box-sizing: border-box;
+}
+
+.navbar-ul {
+    display: flex;
+    gap: 60px;
+}
+
+.logo {
+    width: 116px;
+    height: 39px;
+}
+
+.header-btns {
+    display: flex;
+    gap: 60px;
+}
+
+.navbar-link {
+    font-weight: 400;
+    font-size: 18px;
+    color: #363853;
+    font-family: "Rubik", sans-serif;
+}
+
+.header-icon {
+    color: #363853;
+}
+
+.header-btn {
+    width: 120px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    font-family: "Rubik", sans-serif;
+}
+
+.header-img {
+    width: 106px;
+    height: 38px;
+}
+
+.super-h1 {
+    font-weight: 500;
+    font-size: 66px;
+    color: #363853;
+    font-family: "Rubik", sans-serif;
+}
+
+.super-span {
+    color: #FF7A50;
+}
+
+.super-lorem {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+}
+
+.super-btn {
+    width: 163px;
+    height: 50px;
+    border-radius: 5px;
+    background-color: #FF7A50;
+    font-family: "Rubik", sans-serif;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+}
+
+.super-link {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #363853;
+}
+
+.super-img {
+    width: 489px;
+    height: 481px;
+}
+
+.super-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 115px;
+}
+
+.super-subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.super {
+    padding: 40px 218px;
+}
+
+.our-h2 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #363853;
+}
+
+.our-span {
+    color: #FF7A50;
+}
+
+.our-img {
+    width: 180px;
+    height: 70px;
+}
+
+.our-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 54px;
+}
+
+.our-imgs {
+    width: 208px;
+    height: 279px;
+}
+
+.stay-img {
+    width: 426px;
+    height: 523px;
+}
+
+.stay-h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #363853;
+}
+
+.stay-span {
+    color: #FF7A50;
+}
+
+.stay-lorem {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+}
+
+.stay-p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    color: #363853;
+}
+
+.stay-btn {
+    width: 176px;
+    height: 58px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 1px;
+    border-bottom-left-radius: 30px;
+    background-color: #FF7A50;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.stay-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 137px;
+}
+
+.stay-subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.stay {
+    padding: 40px 218px;
+}
+
+.top-img {
+    width: 261px;
+    height: 317px;
+}
+
+.top-3 {
+    display: flex;
+    gap: 43px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-6 {
+    display: flex;
+    gap: 43px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 30px;
+    color: #363853;
+}
+
+.top-span {
+    color: #FF7A50;
+}
+
+.top-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-title {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.download-h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 50px;
+    color: #363853;
+}
+
+.download-span {
+    color: #FF7A50;
+}
+
+.download-lorem {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #363853;
+}
+
+.download-subtitle {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.download-store {
+    display: flex;
+    gap: 35px;
+}
+
+.download-img {
+    width: 516px;
+    height: 380px;
+}
+
+.download-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.download {
+    padding: 40px 218px;
+}
+
+.what-h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 36px;
+    color: #363853;
+}
+
+.what-span {
+    color: #FF7A50;
+}
+
+.what-lorem {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 45px;
+    color: #363853;
+}
+
+.what-p__p {
+    color: #FF7A50;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.what-p {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #AAAAAA;
+}
+
+.what-img {
+    width: 333px;
+    height: 428px;
+}
+
+.what-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 68px;
+}
+
+.what-subtitle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.what-div {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.what {
+    padding: 40px 218px;
+}
+
+.what-texts {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.what-text {
+    display: flex;
+    flex-direction: column;
+    gap: 74px;
+}
+
+.subscribe-h3 {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #FFFFFF;
+}
+
+.subscribe-lorem {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.subscribe-input {
+    width: 838px;
+    height: 78px;
+    border-radius: 70px;
+    text-indent: 43px;
+    background-color: #FFFFFF;
+    color: #363853;
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    line-height: 30px;
+    border: none;
+}
+
+.subscribe-btn {
+    width: 191px;
+    height: 58px;
+    background-color: #FF7A50;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    border-radius: 70px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: -210px;
+    margin-top: 10px;
+}
+
+.subscribe-inputs {
+    display: flex;
+}
+
+.subscribe-title {
+    width: 1170px;
+    height: 312px;
+    background-color: #FF7A50;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.subscribe {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 218px;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.footer-title {
+    display: flex;
+    gap: 195px;
+}
+
+.footer-link {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 49px;
+    color: #363853;
+}
+
+.footer-p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #363853;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.rights {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 14px;
+    color: #646464;
+}
+
+.footer-ftr {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer{
+    padding: 40px;
+}
